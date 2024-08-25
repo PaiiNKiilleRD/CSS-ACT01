@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas de CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #6c757d;
+            text-align: center;
+        }
+        .topic {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-left: 5px solid #adb5bd;
+            background-color: #e9ecef;
+            border-radius: 4px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+                margin: 10px;
+            }
+            .topic {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Temas de CSS</h1>
+        <div class="topic">
+            <strong>1. Definición de CSS:</strong><br>
+            CSS (Cascading Style Sheets) es un lenguaje de diseño gráfico utilizado para describir la presentación de un documento escrito en HTML o XML.
+        </div>
+        <div class="topic">
+            <strong>2. Funcionamiento Básico de CSS:</strong><br>
+            CSS funciona aplicando estilos a los elementos HTML para controlar su apariencia, como el color, la fuente, el espaciado, y la disposición en la página.
+        </div>
+        <div class="topic">
+            <strong>3. Incluir CSS en un archivo HTML:</strong><br>
+            CSS se puede incluir en un archivo HTML usando una etiqueta `style` dentro del `head`, un archivo externo enlazado con `<link>`, o estilos en línea con el atributo `style`.
+        </div>
+        <div class="topic">
+            <strong>4. Definición de una regla CSS:</strong><br>
+            Una regla CSS define el estilo que se aplicará a los elementos HTML. Se compone de un selector y un bloque de declaración.
+        </div>
+        <div class="topic">
+            <strong>5. Elemento de una regla CSS:</strong><br>
+            <ul>
+                <li><strong>Regla:</strong> Conjunto completo que define cómo se aplica el estilo.</li>
+                <li><strong>Selector:</strong> El elemento HTML al que se aplica el estilo.</li>
+                <li><strong>Bloque de declaración:</strong> Contiene una o más declaraciones CSS.</li>
+                <li><strong>Propiedad:</strong> El aspecto del elemento que se va a cambiar.</li>
+                <li><strong>Valor:</strong> La especificación de la propiedad.</li>
+            </ul>
+        </div>
+        <div class="topic">
+            <strong>6. Medios CSS:</strong><br>
+            Los medios CSS se usan para aplicar estilos específicos según el dispositivo o características del entorno, como `@media screen` para pantallas y `@media print` para impresoras.
+        </div>
+        <div class="topic">
+            <strong>7. Comentarios CSS:</strong><br>
+            Los comentarios en CSS se escriben entre `/*` y `*/`. Son útiles para dejar notas sobre el código.
+        </div>
+        <div class="topic">
+            <strong>8. Sintaxis de la definición de las propiedades CSS:</strong><br>
+            La sintaxis es `propiedad: valor;`, donde `propiedad` es el aspecto a modificar y `valor` es la configuración deseada, como `color: blue;`.
+        </div>
+    </div>
+</body>
+</html>
